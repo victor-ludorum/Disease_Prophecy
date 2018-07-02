@@ -38,3 +38,7 @@ After all this now, we will find the important features actually symptoms which 
 importance of each features and then sort in descending order . Then we found the feature having highest importance. Actually, this feature form the root of the Decision Trees
 which we used as our classifier. this feature(symptom) has the high potential to classify all the symptoms for their corresponding diseases. So, Now we can use our classifier to 
 predict any disease.
+
+# Note 
+The full version of Disease_Prediction_From_Symptoms.ipynb file can be seen at below link. 
+http://nbviewer.jupyter.org/github/victor-ludorum/Disease_Prophecy/blob/master/Disease_Prediction_From_Symptoms.ipynb
