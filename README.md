@@ -11,7 +11,7 @@ appropriate result as we can't predict diseases which it hasn't seen before. So,
 got the score of 90% for the prediction values. Now we will train our ***DecisionTreeClassifier*** which is main classifier which we use to classify our disease list and for the prediction of
 diseases.
 
-**Why DecisionTreeClassifier is used here ?**
+### **Why DecisionTreeClassifier is used here ?**
 
 -> Able to handle multi-output problems.
 
@@ -22,11 +22,11 @@ diseases.
 We have also done analysis on Manual Training dataset collected similar to the training of previous dataset. Now we have also added **cross-validation** after the classifier . And the cross-validation
 score we got are **97.52%** for our DecisionTreeClassifier.
 
-**Why we are doing cross-validation here ?**
+### **Why we are doing cross-validation here ?**
 
 Learning the parameters of a prediction function and testing it on the same data is a methodological mistake: a model that would just repeat the labels of the samples that it has just seen would have a perfect score but would fail to predict anything useful on yet-unseen data.
 
-To avoid **over-fitting**, we have to define two different sets : a training set**X_train, y_train** which is used for learning the parameters of a predictive model, and a testing set **X_test, y_test** which is used for evaluating the fitted predictive model.
+To avoid **over-fitting**, we have to define two different sets : a training set **X_train, y_train** which is used for learning the parameters of a predictive model, and a testing set **X_test, y_test** which is used for evaluating the fitted predictive model.
 
 However, by defining these two sets, we drastically reduce the number of samples which can be used for learning the model, and the results can depend on a particular random choice for the pair of (train, test) sets.
 
